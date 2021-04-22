@@ -162,6 +162,9 @@ footer a,
 /*End off Preloader*/
 
 /* Top Nav */
+.nav-cont {
+  display: flex !important;
+}
 .top_nav {
   background: var(--main-color) none repeat scroll 0 0;
   overflow: hidden;
@@ -193,6 +196,15 @@ footer a,
   margin: 0;
 }
 /* Main Nav */
+.navbar-brand {
+  background-color: #fff;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.navbar-brand img {
+  width: 100%;
+}
 nav.navbar.bootsnav {
   background: #222533 none repeat scroll 0 0;
   border: 0 none;
