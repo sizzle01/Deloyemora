@@ -162,9 +162,7 @@ footer a,
 /*End off Preloader*/
 
 /* Top Nav */
-.nav-cont {
-  display: flex !important;
-}
+
 .top_nav {
   background: var(--main-color) none repeat scroll 0 0;
   overflow: hidden;

@@ -1,0 +1,74 @@
+.service-barnner {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/servicebarnner.jpg);
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-text {
+  margin-top: 15%;
+  margin-left: 15%;
+}
+
+.service-text h1 {
+  color: var(--main-color);
+}
+.service-text h4 {
+  color: #fff;
+  width: 60vw;
+  line-height: 20px;
+}
+.service-body {
+  text-align: center;
+  margin: 40px;
+}
+.service-body p {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.service-items {
+  text-align: center;
+}
+.service-info {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+.service-info p {
+  margin: 0 auto;
+  font-size: 20px;
+  width: 85%;
+}
+.service-item-image {
+  width: 85% !important;
+  margin: 30px 0;
+}
+.service-item-image img {
+}
+.service-cont-style {
+  background-color: rgb(215, 239, 248);
+  padding: 40px;
+}
+.service-item-cont {
+  padding: 10px;
+}
+.service-info p {
+  margin-top: 25px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .service-info p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .service-body p {
+    width: 100%;
+  }
+}

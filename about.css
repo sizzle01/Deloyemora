@@ -17,13 +17,83 @@
 }
 .barnner-text h4 {
   color: #fff;
-  width: 45vw;
+  width: 60vw;
+  line-height: 20px;
 }
 .about-body {
   text-align: center;
   margin: 60px 0;
 }
 .about-body p {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
+  color: black;
+}
+
+.carousel2 {
+  margin: 40px auto !important;
+
+  width: 85vw;
+}
+.item img {
+  width: 100%;
+  height: 60vh !important;
+}
+.about-banner2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/aboutbanner.jpg);
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-text h2,
+p {
+  color: #fff;
+}
+.banner-paragraph {
+  width: 40vw;
+  font-size: 17px;
+}
+.btn {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  background: transparent;
+  cursor: pointer;
+
+  width: 160px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 650;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn:hover {
+  color: #fff;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: var(--main-color);
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.btn::before {
+  height: 180%;
+}
+.btn:hover::before {
+  height: 0%;
 }
