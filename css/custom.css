@@ -507,9 +507,6 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 
 /* Testimonial */
 #testimonial {
-  background: url("../images/testimonial_bg.jpg") no-repeat scroll 0 0;
-  background-size: cover;
-  position: relative;
 }
 #testimonial::before {
   background: #fff;

@@ -1,0 +1,25 @@
+{
+  "name": "deloyemora-construction",
+  "version": "1.0.0",
+  "description": "deloyemora node mailer form",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sizzle01/Deloyemora.git"
+  },
+  "author": "tundev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sizzle01/Deloyemora/issues"
+  },
+  "homepage": "https://github.com/sizzle01/Deloyemora#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "nodemailer": "^6.6.0"
+  }
+}
