@@ -1,8 +1,3 @@
-.toper {
-  width: 100% !important;
-  margin: 0;
-}
-
 .cont-body {
   background: #92bde7;
   color: #485e74;
@@ -29,7 +24,7 @@ ul {
 }
 
 .form-cont {
-  padding: 1em;
+  margin: 1em;
 }
 .company-info {
   background: #c9e6ff;
