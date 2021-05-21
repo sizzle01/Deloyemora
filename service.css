@@ -72,3 +72,14 @@
     width: 100%;
   }
 }
+@media (max-width: 479px) {
+  .service-text {
+    margin-top: 30%;
+    margin-left: 15%;
+  }
+  .service-text h4 {
+    color: #fff;
+    width: 75vw;
+    line-height: 30px;
+  }
+}

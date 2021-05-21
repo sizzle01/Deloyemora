@@ -18,7 +18,7 @@
 .barnner-text h4 {
   color: #fff;
   width: 60vw;
-  line-height: 20px;
+  line-height: 30px;
 }
 .about-body {
   text-align: center;
@@ -96,4 +96,19 @@ p {
 }
 .btn:hover::before {
   height: 0%;
+}
+@media (max-width: 479px) {
+  .barnner-text {
+    margin-top: 30%;
+    margin-left: 15%;
+  }
+
+  .barnner-text h1 {
+    color: var(--main-color);
+  }
+  .barnner-text h4 {
+    color: #fff;
+    width: 75vw;
+    line-height: 30px;
+  }
 }

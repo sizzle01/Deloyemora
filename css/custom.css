@@ -244,12 +244,11 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 }
 .home .carousel .item img {
   width: 100%;
+}
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img {
   height: 700px;
 }
-/*.carousel-inner > .item > a > img,
-.carousel-inner > .item > img {
-    height: 700px;
-}*/
 .carousel .overlay {
   background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
   width: 100%;
@@ -509,7 +508,6 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 #testimonial {
 }
 #testimonial::before {
-  background: #fff;
   opacity: 0.7;
   content: "";
   position: absolute;
@@ -918,6 +916,9 @@ footer::after {
 }
 
 @media (max-width: 767px) {
+  .home .carousel {
+    height: 300px !important;
+  }
   h1 {
     font-size: 32px;
     line-height: 35px;
