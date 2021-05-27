@@ -123,10 +123,10 @@
             <div class="contact">
                 <h3>Email Us</h3>
 
-                <form method="POST" action="contact-form-handler.php">
+                <form method="post" id="contact-form" action="contact-form-handler.php">
                     <p>
                         <label>Name</label>
-                        <input type="text" name="name" />
+                        <input type="text" name="name" class="form-control" required />
                     </p>
                     <p>
                         <label>Company</label>
@@ -134,18 +134,18 @@
                     </p>
                     <p>
                         <label>Email Address</label>
-                        <input type="email" name="email" />
+                        <input type="email" name="email" class="form-control" required />
                     </p>
                     <p>
                         <label>Phone Number</label>
-                        <input type="text" name="phone" />
+                        <input type="text" name="phone" class="form-control" required />
                     </p>
                     <p class="full">
                         <label>Message</label>
                         <textarea name="message" rows="5"></textarea>
                     </p>
-                    <p class="full">
-                        <button type="submit">Submit</button>
+                    <p class="full form-control submit">
+                        <button type="submit" class="form-control">Submit</button>
                     </p>
                 </form>
             </div>
